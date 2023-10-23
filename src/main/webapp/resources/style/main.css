@@ -1,0 +1,133 @@
+.back {
+    background-color: black;
+    overflow-y: hidden;
+}
+
+.background {
+    width: 102%;
+    margin-left: -1%;
+    margin-top: -10%;
+    opacity: 30%;
+}
+
+.header {
+    text-align: center;
+    text-shadow: 2px 2px 10px black;
+    color: white;
+    font-size: 3rem;
+    width: 100%;
+    display: inline-block;
+}
+
+div.card {
+    background-color: #fff7f742;
+    border-radius: 1rem;
+    width: 60rem;
+    position: absolute;
+    left: 15%;
+    box-shadow: 0 0 1rem #585858;
+    padding: 2rem 2rem 4rem;
+    top: 20%;
+    height: 25rem;
+}
+
+div.add-card {
+    background-color: #fff7f742;
+    border-radius: 1rem;
+    width: 40rem;
+    position: absolute;
+    left: 29%;
+    box-shadow: 0 0 1rem #585858;
+    padding: 2rem 2rem 4rem;
+    top: 20%;
+    height: 25rem;
+}
+
+a.button {
+    text-decoration: none;
+    color: #535353;
+    background: #ffffff9c;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 1px 0.7rem;
+    width: 10rem;
+    display: inline-block;
+    transition: 300ms;
+}
+
+a.button:hover {
+    scale: 1.05;
+    transition: 300ms;
+    background: white;
+}
+
+a.button-row:hover {
+    scale: 1.05;
+    transition: 300ms;
+    background: white;
+}
+
+a.button-row {
+    text-decoration: none;
+    color: #535353;
+    background: #ffffff9c;
+    border-radius: 1rem;
+    padding: 3rem;
+    box-shadow: 0 1px 0.7rem;
+    width: 80%;
+    display: inline-block;
+    transition: 300ms;
+    margin: 1rem;
+}
+
+a.button-row-user:hover {
+    scale: 1.05;
+    transition: 300ms;
+    background: white;
+}
+
+a.button-row-user {
+    text-decoration: none;
+    color: #535353;
+    background: #ffffff9c;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 1px 0.7rem;
+    width: 80%;
+    display: inline-block;
+    transition: 300ms;
+    margin: 1rem;
+}
+
+div.button-container {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+div.button-container-row {
+    text-align: center;
+    margin-top: 6rem;
+    display: flex;
+}
+
+i.text {
+    display: inline-block;
+    padding-top: 1rem;
+}
+
+img.image {
+    color: #535353;
+    opacity: 60%;
+}
+
+img.image-row {
+    color: #535353;
+    opacity: 60%;
+    width: 3rem;
+}
+
+.input-group{
+    width: 25rem;
+    margin-left: 14%;
+}

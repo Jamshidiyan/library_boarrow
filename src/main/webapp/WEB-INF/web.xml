@@ -1,0 +1,30 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+
+  <display-name>
+    Archetype Created Web Application
+  </display-name>
+  <servlet>
+    <servlet-name>addUser</servlet-name>
+    <servlet-class>com.makeen.libraryservlet.UserServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>addUser</servlet-name>
+    <url-pattern>/front/user/UserServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>editUser</servlet-name>
+    <servlet-class>com.makeen.libraryservlet.UserEditAndDeleteServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>editUser</servlet-name>
+    <url-pattern>/front/user/UserEditAndDeleteServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
